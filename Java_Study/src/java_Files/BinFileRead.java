@@ -11,7 +11,7 @@ public class BinFileRead {
 
 	private static void readFile() {
 		// TODO Auto-generated method stub
-		// try-resource è¯­å¥ï¼Œè‡ªåŠ¨å…³é—­èµ„æº
+		// try-resource Óï¾ä£¬×Ô¶¯ÊÍ·ÅÁ÷
 		try (DataInputStream dis = new DataInputStream(
 				new BufferedInputStream(new FileInputStream("c:/temp/def.dat")))) {
 			String a, b;
